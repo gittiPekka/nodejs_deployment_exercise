@@ -1,0 +1,21 @@
+{
+  "name": "metropolia_nodejs_course",
+  "version": "1.0.0",
+  "description": "nodejs deployment exercise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "engines": {
+    "node": "18.7.1"
+  }
+}
